@@ -1,0 +1,1769 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='processed_data' inline='true' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed_data' name='textscan.08ikq830354hjh1h0lsae0i84fga'>
+            <connection class='textscan' directory='C:/Users/Clarke/Documents/School Docs/Third Year Homework/DATA 301/course-project-group_1032/data/processed' filename='processed_data.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08ikq830354hjh1h0lsae0i84fga' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='string' name='Division' ordinal='2' />
+            <column datatype='string' name='County' ordinal='3' />
+            <column datatype='string' name='Region' ordinal='4' />
+            <column datatype='string' name='Population_Description' ordinal='5' />
+            <column datatype='string' name='Offense' ordinal='6' />
+            <column datatype='string' name='Offender_Race' ordinal='7' />
+            <column datatype='string' name='Offender_Ethnicity' ordinal='8' />
+            <column datatype='real' name='Offender_Age' ordinal='9' />
+            <column datatype='string' name='Offender_Sex' ordinal='10' />
+            <column datatype='string' name='Victim_Type' ordinal='11' />
+            <column datatype='string' name='Location' ordinal='12' />
+            <column datatype='string' name='Weapon' ordinal='13' />
+            <column datatype='string' name='Property_Type' ordinal='14' />
+            <column datatype='real' name='Stolen_Value' ordinal='15' />
+            <column datatype='real' name='Recovered_Value' ordinal='16' />
+            <column datatype='string' name='Recovered?' ordinal='17' />
+            <column datatype='date' name='Recovery_Date' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08ikq830354hjh1h0lsae0i84fga' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='string' name='Division' ordinal='2' />
+            <column datatype='string' name='County' ordinal='3' />
+            <column datatype='string' name='Region' ordinal='4' />
+            <column datatype='string' name='Population_Description' ordinal='5' />
+            <column datatype='string' name='Offense' ordinal='6' />
+            <column datatype='string' name='Offender_Race' ordinal='7' />
+            <column datatype='string' name='Offender_Ethnicity' ordinal='8' />
+            <column datatype='real' name='Offender_Age' ordinal='9' />
+            <column datatype='string' name='Offender_Sex' ordinal='10' />
+            <column datatype='string' name='Victim_Type' ordinal='11' />
+            <column datatype='string' name='Location' ordinal='12' />
+            <column datatype='string' name='Weapon' ordinal='13' />
+            <column datatype='string' name='Property_Type' ordinal='14' />
+            <column datatype='real' name='Stolen_Value' ordinal='15' />
+            <column datatype='real' name='Recovered_Value' ordinal='16' />
+            <column datatype='string' name='Recovered?' ordinal='17' />
+            <column datatype='date' name='Recovery_Date' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Division</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Division]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Division</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population_Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Population_Description]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Population_Description</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offense]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Offense</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offender_Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offender_Race]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Offender_Race</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offender_Ethnicity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offender_Ethnicity]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Offender_Ethnicity</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offender_Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Offender_Age]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Offender_Age</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offender_Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offender_Sex]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Offender_Sex</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Victim_Type]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Victim_Type</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weapon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weapon]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Weapon</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property_Type]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Property_Type</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stolen_Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Stolen_Value]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Stolen_Value</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recovered_Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Recovered_Value]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Recovered_Value</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recovered?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Recovered?]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Recovered?</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recovery_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Recovery_Date]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Recovery_Date</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregate-role-from='[State]' datatype='string' name='[County]' role='dimension' type='nominal' />
+      <column caption='Offender Age' datatype='real' name='[Offender_Age]' role='measure' type='quantitative' />
+      <column caption='Offender Ethnicity' datatype='string' name='[Offender_Ethnicity]' role='dimension' type='nominal' />
+      <column caption='Offender Race' datatype='string' name='[Offender_Race]' role='dimension' type='nominal' />
+      <column caption='Offender Sex' datatype='string' name='[Offender_Sex]' role='dimension' type='nominal' />
+      <column caption='Population Description' datatype='string' name='[Population_Description]' role='dimension' type='nominal' />
+      <column caption='Property Type' datatype='string' name='[Property_Type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Recovered?]' role='dimension' type='nominal' />
+      <column caption='Recovered Value' datatype='real' name='[Recovered_Value]' role='measure' type='quantitative' />
+      <column caption='Recovery Date' datatype='date' name='[Recovery_Date]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Region (group) 1]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+          <bin default-name='true' value='&quot;Midwest&quot;'>
+            <value>&quot;Midwest&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Northeast&quot;'>
+            <value>&quot;Northeast&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;South&quot;'>
+            <value>&quot;South&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;West&quot;'>
+            <value>&quot;West&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Region (group) 2]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+          <bin default-name='true' value='&quot;Midwest&quot;'>
+            <value>&quot;Midwest&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Northeast&quot;'>
+            <value>&quot;Northeast&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;South&quot;'>
+            <value>&quot;South&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;West&quot;'>
+            <value>&quot;West&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Region (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+          <bin default-name='true' value='&quot;Midwest&quot;'>
+            <value>&quot;Midwest&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;Northeast&quot;'>
+            <value>&quot;Northeast&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;South&quot;'>
+            <value>&quot;South&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;West&quot;'>
+            <value>&quot;West&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+      <column aggregation='CountD' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Stolen Value' datatype='real' name='[Stolen_Value]' role='measure' type='quantitative' />
+      <column caption='Victim Type' datatype='string' name='[Victim_Type]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='processed_data.csv' datatype='table' name='[__tableau_internal_object_id__].[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]' role='measure' type='quantitative' />
+      <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Property Type)' hidden='true' name='[Action (Property Type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Property_Type]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Recovered?,Region)' hidden='true' name='[Action (Recovered?,Region)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Recovered?]' />
+          <groupfilter function='level-members' level='[Region]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Region (group),Region)' hidden='true' name='[Action (Region (group),Region)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Region (group)]' />
+          <groupfilter function='level-members' level='[Region]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Region,State)' hidden='true' name='[Action (Region,State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Region]' />
+          <groupfilter function='level-members' level='[State]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='State, County'>
+          <field>[State]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='ordinal' measure-ordering='ordinal' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Region (group) 1]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;South&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Midwest&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Northeast&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;West&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Region (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;South&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;West&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Midwest&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Northeast&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Region (group) 2]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;South&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;West&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Midwest&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Northeast&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Region:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;South&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;West&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Midwest&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Northeast&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed_data.csv' id='processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D'>
+            <properties context=''>
+              <relation connection='textscan.08ikq830354hjh1h0lsae0i84fga' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                  <column datatype='string' name='Division' ordinal='2' />
+                  <column datatype='string' name='County' ordinal='3' />
+                  <column datatype='string' name='Region' ordinal='4' />
+                  <column datatype='string' name='Population_Description' ordinal='5' />
+                  <column datatype='string' name='Offense' ordinal='6' />
+                  <column datatype='string' name='Offender_Race' ordinal='7' />
+                  <column datatype='string' name='Offender_Ethnicity' ordinal='8' />
+                  <column datatype='real' name='Offender_Age' ordinal='9' />
+                  <column datatype='string' name='Offender_Sex' ordinal='10' />
+                  <column datatype='string' name='Victim_Type' ordinal='11' />
+                  <column datatype='string' name='Location' ordinal='12' />
+                  <column datatype='string' name='Weapon' ordinal='13' />
+                  <column datatype='string' name='Property_Type' ordinal='14' />
+                  <column datatype='real' name='Stolen_Value' ordinal='15' />
+                  <column datatype='real' name='Recovered_Value' ordinal='16' />
+                  <column datatype='string' name='Recovered?' ordinal='17' />
+                  <column datatype='date' name='Recovery_Date' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Goods by Region' name='[Action1]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='EDA Dashboard' type='sheet' worksheet='Occurrences by Region' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Average Value Stolen,Occurrences by Region' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter by good type' name='[Action2]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='EDA Dashboard' type='sheet' worksheet='Most Commonly Stolen Goods' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Most Commonly Stolen Goods' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter1' name='[Action3]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='Research Question Dashboard' type='sheet' worksheet='Occurrences by Region' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Average Value Stolen,Occurrences by Region,Occurrences by State,Recovered vs Not Recovered by Region' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question Dashboard' />
+      </command>
+    </action>
+    <action caption='Recovered vs not' name='[Action4]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='Research Question Dashboard' type='sheet' worksheet='Recovered vs Not Recovered by Region' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Occurrences by Region,Occurrences by State,Recovered vs Not Recovered by Region' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter2' name='[Action5]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='Research Question Dashboard' type='sheet' worksheet='Occurrences by State' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Average Value Stolen,Occurrences by Region,Occurrences by State,Recovered vs Not Recovered by Region' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Value Stolen'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column caption='Property Type' datatype='string' name='[Property_Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Recovered?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region (group) 2]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+                <bin default-name='true' value='&quot;Midwest&quot;'>
+                  <value>&quot;Midwest&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;Northeast&quot;'>
+                  <value>&quot;Northeast&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;South&quot;'>
+                  <value>&quot;South&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;West&quot;'>
+                  <value>&quot;West&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column caption='Stolen Value' datatype='real' name='[Stolen_Value]' role='measure' type='quantitative' />
+            <column-instance column='[Stolen_Value]' derivation='Avg' name='[avg:Stolen_Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='Count' name='[cnt:Region:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Property Type)]'>
+            <groupfilter function='level-members' level='[Property_Type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Recovered?,Region)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Recovered?]' />
+              <groupfilter function='level-members' level='[Region]' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' />
+          <slices>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Property Type)]</column>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Recovered?,Region)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[avg:Stolen_Value:qk]' scope='rows' value='Avg. Stolen Value ($)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group) 2]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[avg:Stolen_Value:qk]</rows>
+        <cols>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]</cols>
+      </table>
+      <simple-id uuid='{9725C553-051B-48A0-85EF-533981D5F2C2}' />
+    </worksheet>
+    <worksheet name='Count of Incidents'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Region]' derivation='Count' name='[cnt:Region:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{A3A8179B-4E8F-4D04-9A1A-67DF6E6A767A}' />
+    </worksheet>
+    <worksheet name='Most Commonly Stolen Goods'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column caption='Property Type' datatype='string' name='[Property_Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+                <bin default-name='true' value='&quot;Midwest&quot;'>
+                  <value>&quot;Midwest&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;Northeast&quot;'>
+                  <value>&quot;Northeast&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;South&quot;'>
+                  <value>&quot;South&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;West&quot;'>
+                  <value>&quot;West&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Property_Type]' derivation='Count' name='[cnt:Property_Type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Property_Type]' derivation='None' name='[none:Property_Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Region (group),Region)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Region (group)]' />
+              <groupfilter function='level-members' level='[Region]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Property_Type:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([Property_Type])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter from='&quot;Aircraft&quot;' function='range' level='[none:Property_Type:nk]' to='&quot;Office Equipment&quot;' />
+                  <groupfilter from='&quot;Other Motor Vehicles&quot;' function='range' level='[none:Property_Type:nk]' to='&quot;Weapons-Other&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Property_Type:nk]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Property_Type:qk]' />
+          <slices>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Property_Type:nk]</column>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Region (group),Region)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Property_Type:qk]' scope='rows' value='Count of Incidents' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Property_Type:nk]' value='153' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Property_Type:qk]</rows>
+        <cols>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Property_Type:nk]</cols>
+      </table>
+      <simple-id uuid='{52647763-5089-4FB4-85E0-D80676EA7044}' />
+    </worksheet>
+    <worksheet name='Occurrences by Region'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Occurrences by Region&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column caption='Property Type' datatype='string' name='[Property_Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+                <bin default-name='true' value='&quot;Midwest&quot;'>
+                  <value>&quot;Midwest&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;Northeast&quot;'>
+                  <value>&quot;Northeast&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;South&quot;'>
+                  <value>&quot;South&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;West&quot;'>
+                  <value>&quot;West&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Region]' derivation='Count' name='[cnt:Region:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Property Type)]'>
+            <groupfilter function='level-members' level='[Property_Type]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' />
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' />
+          <slices>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Property Type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' scope='rows' value='Count by Region' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' value='151' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' value='Region'>
+              <formatted-text>
+                <run>Region</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='highlight' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]</rows>
+        <cols>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]</cols>
+      </table>
+      <simple-id uuid='{5857489D-CDC8-4371-8FE6-68A4B65992AE}' />
+    </worksheet>
+    <worksheet name='Occurrences by State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column aggregation='CountD' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='Count' name='[cnt:State:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:State:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([State])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:State:nk]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:State:qk]' />
+          <slices>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:State:qk]' scope='rows' value='Count of Occurrences' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:State:qk]</rows>
+        <cols>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:State:nk]</cols>
+      </table>
+      <simple-id uuid='{C991AE74-7D6D-4F49-BF2B-A3702843C25F}' />
+    </worksheet>
+    <worksheet name='Recovered vs Not Recovered by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column datatype='string' name='[Recovered?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Region]' derivation='Count' name='[cnt:Region:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recovered?]' derivation='None' name='[none:Recovered?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' scope='rows' value='Count of Occurrences' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]</rows>
+        <cols>([federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk] / [federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Recovered?:nk])</cols>
+      </table>
+      <simple-id uuid='{DCC33775-DBDD-4364-A760-975E0DD8AD30}' />
+    </worksheet>
+    <worksheet name='Yearly Occurences by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.0rq24iv0t3hzgr121xx9t1jt8jxw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rq24iv0t3hzgr121xx9t1jt8jxw'>
+            <column datatype='string' name='[Recovered?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Region]' new-bin='true'>
+                <bin default-name='true' value='&quot;Midwest&quot;'>
+                  <value>&quot;Midwest&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;Northeast&quot;'>
+                  <value>&quot;Northeast&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;South&quot;'>
+                  <value>&quot;South&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;West&quot;'>
+                  <value>&quot;West&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column aggregation='CountD' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Region]' derivation='Count' name='[cnt:Region:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Recovered?,Region)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Recovered?]' />
+              <groupfilter function='level-members' level='[Region]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Region (group),Region)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Region (group)]' />
+              <groupfilter function='level-members' level='[Region]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Region,State)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Region]' />
+              <groupfilter function='level-members' level='[State]' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' direction='DESC' using='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' />
+          <slices>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Region (group),Region)]</column>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Recovered?,Region)]</column>
+            <column>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Action (Region,State)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' scope='rows' value='true' />
+            <format attr='title' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]' scope='rows' value='Count of Occurrences' />
+            <encoding attr='space' class='0' field='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Year:qk]' field-type='quantitative' max='2019' min='2013' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='highlight' />
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[cnt:Region:qk]</rows>
+        <cols>[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{B0E81E26-AFC8-4B05-89F5-010602585602}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='EDA Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='92851' id='7' param='horz' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92851' id='5' w='99002' x='499' y='978'>
+              <zone h='65061' id='10' name='Occurrences by Region' w='49501' x='499' y='18363'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17385' id='13' w='99002' x='499' y='978'>
+                <formatted-text>
+                  <run bold='true' fontcolor='#24292e' fontsize='12' underline='true'>Exploratory Data Analysis</run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#24292e'>Our data set is regarding Cargo theft in the USA as reported by the FBI. The FBI defines cargo as physical items as well as cyber and documentation fraud. The data available runs from 2013 until 2019 and was collected by the Uniform Crime Reporting (UCR) program. There are lots of interesting variables including location of theft, value of goods stolen, value of goods recovered, whether or not the goods were recovered and population size of area where the goods were stolen. We have refined the original data to show incidents with stolen value between 1,000 and 1,000,000 to avoid outliers in order to provide more interesting analysis.</run>
+                  <run>Æ&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='42018' id='15' name='Average Value Stolen' w='28774' x='50000' y='18363'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='33448' id='17' name='Most Commonly Stolen Goods' w='28774' x='50000' y='60381'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20727' x='78774' y='60381'>
+                <formatted-text>
+                  <run>We can explore the most commonly stollen item categories. Before applying a filter, there is a category &quot;Other&quot; that is the second most commonly stolen. We choose to filter this out as we do not have any information on what is included in this category. This plot shows us that most of the reported theft revolves around vehicular theft.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10405' id='24' w='49501' x='499' y='83424'>
+                <formatted-text>
+                  <run>The graph above gives us an idea of how many occurances occur in each region. From this plot we see that the South region has the most reported cases overall, while the West has the least. In fact the South region has more incidents than the other three regions combined. </run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42018' id='26' w='20727' x='78774' y='18363'>
+                <formatted-text>
+                  <run>This plot shows us the average value of goods stolen in each of the regions. We see that overall, the South has the heighest average while the West has the second highest average while having the far fewest reported incidents. This suggests that possibly the West had a few high value incidents that are bringing the average up or maybe the value of goods stolen is just higher on average in the widespread West region.
+
+</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='5193' id='29' w='99002' x='499' y='93829'>
+            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5193' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93829'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='57' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='56' param='vert' w='99002' x='499' y='978'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17385' id='13' w='99002' x='499' y='978'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#24292e' fontsize='12' underline='true'>Exploratory Data Analysis</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#24292e'>Our data set is regarding Cargo theft in the USA as reported by the FBI. The FBI defines cargo as physical items as well as cyber and documentation fraud. The data available runs from 2013 until 2019 and was collected by the Uniform Crime Reporting (UCR) program. There are lots of interesting variables including location of theft, value of goods stolen, value of goods recovered, whether or not the goods were recovered and population size of area where the goods were stolen. We have refined the original data to show incidents with stolen value between 1,000 and 1,000,000 to avoid outliers in order to provide more interesting analysis.</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='65061' id='10' is-fixed='true' name='Occurrences by Region' w='49501' x='499' y='18363'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5193' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93829'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42018' id='15' is-fixed='true' name='Average Value Stolen' w='28774' x='50000' y='18363'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42018' id='26' w='20727' x='78774' y='18363'>
+                  <formatted-text>
+                    <run>This plot shows us the average value of goods stolen in each of the regions. We see that overall, the South has the heighest average while the West has the second highest average while having the far fewest reported incidents. This suggests that possibly the West had a few high value incidents that are bringing the average up or maybe the value of goods stolen is just higher on average in the widespread West region.
+
+</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='260' h='33448' id='17' is-fixed='true' name='Most Commonly Stolen Goods' w='28774' x='50000' y='60381'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20727' x='78774' y='60381'>
+                  <formatted-text>
+                    <run>We can explore the most commonly stollen item categories. Before applying a filter, there is a category &quot;Other&quot; that is the second most commonly stolen. We choose to filter this out as we do not have any information on what is included in this category. This plot shows us that most of the reported theft revolves around vehicular theft.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10405' id='24' w='49501' x='499' y='83424'>
+                  <formatted-text>
+                    <run>The graph above gives us an idea of how many occurances occur in each region. From this plot we see that the South region has the most reported cases overall, while the West has the least. In fact the South region has more incidents than the other three regions combined. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C0B5D95F-3666-4986-ABDC-1AADB8836D5D}' />
+    </dashboard>
+    <dashboard name='Research Question Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='30' param='horz' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98044' id='23' w='99002' x='499' y='978'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='52764' id='20' param='horz' w='99002' x='499' y='978'>
+                <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='52764' id='18' w='99002' x='499' y='978'>
+                  <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='52764' id='7' param='horz' w='99002' x='499' y='978'>
+                    <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='52764' id='5' w='99002' x='499' y='978'>
+                      <zone h='41509' id='3' name='Occurrences by Region' w='20602' x='11844' y='12233'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='11255' id='9' w='26792' x='499' y='978'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#1b1b1b' fontsize='12' underline='true'>Research Question</run>
+                          <run>
+One question the group wanted to explore was: Which of the regions was the worst for crime? </run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='41509' id='14' name='Average Value Stolen' w='22169' x='32446' y='12233'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='33122' id='17' name='Occurrences by State' w='44886' x='54615' y='12233'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='41509' id='16' w='11345' x='499' y='12233'>
+                        <formatted-text>
+                          <run>We see from these two graphs that the South Region appears to be the worst for crime as it has both the most incidents and the highest average value of goods stolen. 
+</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8387' id='21' w='44886' x='54615' y='45355'>
+                        <formatted-text>
+                          <run>We can see that seven states of the top ten most theft prone states are contained in the South region. </run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11255' id='31' name='Recovered vs Not Recovered by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' w='16641' x='82860' y='978'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='11255' id='46' param='horz' w='55569' x='27291' y='978' />
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='28293' id='22' name='Yearly Occurences by Region' w='54118' x='499' y='57563'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='13166' id='27' w='54118' x='499' y='85856'>
+                <formatted-text>
+                  <run>This graph notes a few interesting points. First we see that the West only started counting in 2014. Secondly we see the South region is typically much higher than the other regions, especially in 2019 where the South jumped over 3000 cases from the prior year. However for 2016 we see that the Northeast Region had more reported occurences than the South region.
+</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='33146' id='28' name='Recovered vs Not Recovered by Region' w='44884' x='54617' y='57563'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='8313' id='32' w='44884' x='54617' y='90709'>
+                <formatted-text>
+                  <run>This plot shows that the South and West regions have fairly good recovery rates on stolen goods. Meanwhile, the Northeast region has a much lower recovery rate. </run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='3821' id='45' param='vert' w='99002' x='499' y='53742' />
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='58' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='57' param='vert' w='99002' x='499' y='978'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='11255' id='9' w='26792' x='499' y='978'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='12' underline='true'>Research Question</run>
+                    <run>
+One question the group wanted to explore was: Which of the regions was the worst for crime? </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='41509' id='16' w='11345' x='499' y='12233'>
+                  <formatted-text>
+                    <run>We see from these two graphs that the South Region appears to be the worst for crime as it has both the most incidents and the highest average value of goods stolen. 
+</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41509' id='3' is-fixed='true' name='Occurrences by Region' w='20602' x='11844' y='12233'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41509' id='14' is-fixed='true' name='Average Value Stolen' w='22169' x='32446' y='12233'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='257' h='33122' id='17' is-fixed='true' name='Occurrences by State' w='44886' x='54615' y='12233'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8387' id='21' w='44886' x='54615' y='45355'>
+                  <formatted-text>
+                    <run>We can see that seven states of the top ten most theft prone states are contained in the South region. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='218' h='28293' id='22' is-fixed='true' name='Yearly Occurences by Region' w='54118' x='499' y='57563'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='257' h='33146' id='28' is-fixed='true' name='Recovered vs Not Recovered by Region' w='44884' x='54617' y='57563'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11255' id='31' name='Recovered vs Not Recovered by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' w='16641' x='82860' y='978'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='13166' id='27' w='54118' x='499' y='85856'>
+                  <formatted-text>
+                    <run>This graph notes a few interesting points. First we see that the West only started counting in 2014. Secondly we see the South region is typically much higher than the other regions, especially in 2019 where the South jumped over 3000 cases from the prior year. However for 2016 we see that the Northeast Region had more reported occurences than the South region.
+</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='8313' id='32' w='44884' x='54617' y='90709'>
+                  <formatted-text>
+                    <run>This plot shows that the South and West regions have fairly good recovery rates on stolen goods. Meanwhile, the Northeast region has a much lower recovery rate. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{23BD6F5B-03D4-43E5-9DAA-683883DC7425}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='dashboard' maximized='true' name='EDA Dashboard'>
+      <viewpoints>
+        <viewpoint name='Average Value Stolen'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Most Commonly Stolen Goods'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Occurrences by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='18' />
+      <device-preview selected='Desktop' />
+      <simple-id uuid='{C5860B99-2B43-402F-965E-2B96BFAFEE79}' />
+    </window>
+    <window class='dashboard' name='Research Question Dashboard'>
+      <viewpoints>
+        <viewpoint name='Average Value Stolen'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Occurrences by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Occurrences by State'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Recovered vs Not Recovered by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Yearly Occurences by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{77584B72-FB75-4B08-B83E-6BA79B58C66D}' />
+    </window>
+    <window class='worksheet' name='Occurrences by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1E3F3CF7-75AF-4984-A157-541768991DEC}' />
+    </window>
+    <window class='worksheet' name='Count of Incidents'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{B1A5A204-83D9-44BD-8C9E-137A712E54BA}' />
+    </window>
+    <window class='worksheet' name='Average Value Stolen'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group) 2]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{799261C8-E459-4DB3-8FA0-4053E228175D}' />
+    </window>
+    <window class='worksheet' name='Most Commonly Stolen Goods'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5BE19102-2206-4F50-AFBD-C6AB315154E6}' />
+    </window>
+    <window class='worksheet' name='Occurrences by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F61B1AC3-FF8C-4A90-A72C-E384A6E3B004}' />
+    </window>
+    <window class='worksheet' name='Yearly Occurences by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0E5FBEB7-0DED-4AB4-B2ED-EFFC5DC3B26D}' />
+    </window>
+    <window class='worksheet' name='Recovered vs Not Recovered by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[none:Region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C9310F05-76B6-4D48-B026-4221E2B25241}' />
+    </window>
+  </windows>
+</workbook>

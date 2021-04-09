@@ -24,9 +24,13 @@ Our data set is regarding Cargo theft in the USA as reported by the FBI. The FBI
 
 ## Team Members
 
-- Clarke L.: I am a third year mathematics major at UBCO.
+- Clarke L: I am a third year mathematics major at UBCO.
 - Cole V: I am a third year COSC major, I like C and embedded systems.
 - Zach P: I am a second year COSC major, American, and addicted to chess at the moment.
+...
+## Links for Lab 7
+
+- Clarke L: https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346762?:origin=card_share_link
 
 ## References
 
