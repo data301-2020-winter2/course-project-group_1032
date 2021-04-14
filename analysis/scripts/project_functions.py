@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+from geopy.geocoders import Nominatim
+from geopy import distance
 
 def load_and_process(path_to_csv):
     
@@ -33,6 +35,13 @@ def load_and_process(path_to_csv):
    			"DATE_RECOVERED" : "Recovery_Date"
 		})
     )
+    df["Latitude"] = np.nan
+    df["Longitude"] = np.nan
     
+    geolocator = Nominatim(user_agent="chatbot")
+    for index, row in df.iterrows():
+        location = geolocator.geocode(row["State"])
+        row["Latitude"] = location.latitude
+        row["Longitude"] = location.longitude
     
     return df
