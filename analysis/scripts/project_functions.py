@@ -39,9 +39,15 @@ def load_and_process(path_to_csv):
     df["Longitude"] = np.nan
     
     geolocator = Nominatim(user_agent="chatbot")
+    coordDict = {}
     for index, row in df.iterrows():
-        location = geolocator.geocode(row["State"])
-        row["Latitude"] = location.latitude
-        row["Longitude"] = location.longitude
-    
+        if row["State"] in coordDict:
+            df.at[index, "Latitude"] = coordDict[row["State"]][0]
+            df.at[index, "Longitude"] = coordDict[row["State"]][1]
+        else:
+            location = geolocator.geocode(row["State"])
+            df.at[index, "Latitude"] = location.latitude
+            df.at[index, "Longitude"] = location.longitude
+            coordDict[row["State"]] = (location.latitude, location.longitude)
+
     return df
