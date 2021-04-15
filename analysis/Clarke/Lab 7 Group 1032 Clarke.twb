@@ -99,6 +99,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>State</remote-name>
@@ -113,6 +114,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Division</remote-name>
@@ -127,6 +129,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>County</remote-name>
@@ -141,6 +144,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Region</remote-name>
@@ -155,6 +159,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Population_Description</remote-name>
@@ -169,6 +174,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Offense</remote-name>
@@ -183,6 +189,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Offender_Race</remote-name>
@@ -197,6 +204,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Offender_Ethnicity</remote-name>
@@ -211,6 +219,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Offender_Age</remote-name>
@@ -222,6 +231,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Offender_Sex</remote-name>
@@ -236,6 +246,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Victim_Type</remote-name>
@@ -250,6 +261,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Location</remote-name>
@@ -264,6 +276,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Weapon</remote-name>
@@ -278,6 +291,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Property_Type</remote-name>
@@ -292,6 +306,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Stolen_Value</remote-name>
@@ -303,6 +318,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Recovered_Value</remote-name>
@@ -314,6 +330,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Recovered?</remote-name>
@@ -328,6 +345,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Recovery_Date</remote-name>
@@ -339,6 +357,7 @@
             <local-type>date</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_A1D6EB99220E4821B96F1ECB35B9A75D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -457,12 +476,15 @@
               <bucket>&quot;West&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Region:nk]' type='palette'>
+          <encoding attr='color' field='[Region (group)]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;South&quot;</bucket>
             </map>
             <map to='#76b7b2'>
               <bucket>&quot;West&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
             </map>
             <map to='#e15759'>
               <bucket>&quot;Midwest&quot;</bucket>
@@ -488,15 +510,12 @@
               <bucket>&quot;Northeast&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[Region (group)]' type='palette'>
+          <encoding attr='color' field='[none:Region:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;South&quot;</bucket>
             </map>
             <map to='#76b7b2'>
               <bucket>&quot;West&quot;</bucket>
-            </map>
-            <map to='#a2a2a2'>
-              <bucket>%null%</bucket>
             </map>
             <map to='#e15759'>
               <bucket>&quot;Midwest&quot;</bucket>
@@ -1048,9 +1067,9 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
-          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='92851' id='7' param='horz' w='99002' x='499' y='978'>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92851' id='5' w='99002' x='499' y='978'>
-              <zone h='65061' id='10' name='Occurrences by Region' w='49501' x='499' y='18363'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='92850' id='7' param='horz' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92850' id='5' w='99002' x='499' y='978'>
+              <zone h='65061' id='10' name='Occurrences by Region' w='49501' x='499' y='18361'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1058,7 +1077,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17385' id='13' w='99002' x='499' y='978'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17383' id='13' w='99002' x='499' y='978'>
                 <formatted-text>
                   <run bold='true' fontcolor='#24292e' fontsize='12' underline='true'>Exploratory Data Analysis</run>
                   <run>Æ&#10;</run>
@@ -1072,7 +1091,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='42018' id='15' name='Average Value Stolen' w='28774' x='50000' y='18363'>
+              <zone h='42019' id='15' name='Average Value Stolen' w='28772' x='50000' y='18361'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1080,7 +1099,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='33448' id='17' name='Most Commonly Stolen Goods' w='28774' x='50000' y='60381'>
+              <zone h='33448' id='17' name='Most Commonly Stolen Goods' w='28772' x='50000' y='60380'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1088,7 +1107,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20727' x='78774' y='60381'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20729' x='78772' y='60380'>
                 <formatted-text>
                   <run>We can explore the most commonly stollen item categories. Before applying a filter, there is a category &quot;Other&quot; that is the second most commonly stolen. We choose to filter this out as we do not have any information on what is included in this category. This plot shows us that most of the reported theft revolves around vehicular theft.</run>
                 </formatted-text>
@@ -1099,7 +1118,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10405' id='24' w='49501' x='499' y='83424'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10406' id='24' w='49501' x='499' y='83422'>
                 <formatted-text>
                   <run>The graph above gives us an idea of how many occurances occur in each region. From this plot we see that the South region has the most reported cases overall, while the West has the least. In fact the South region has more incidents than the other three regions combined. </run>
                 </formatted-text>
@@ -1110,7 +1129,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42018' id='26' w='20727' x='78774' y='18363'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42019' id='26' w='20729' x='78772' y='18361'>
                 <formatted-text>
                   <run>This plot shows us the average value of goods stolen in each of the regions. We see that overall, the South has the heighest average while the West has the second highest average while having the far fewest reported incidents. This suggests that possibly the West had a few high value incidents that are bringing the average up or maybe the value of goods stolen is just higher on average in the widespread West region.
 
@@ -1125,8 +1144,8 @@
               </zone>
             </zone>
           </zone>
-          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='5193' id='29' w='99002' x='499' y='93829'>
-            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5193' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93829'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='5194' id='29' w='99002' x='499' y='93828'>
+            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5194' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93828'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -1147,9 +1166,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='59' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='58' param='vert' w='99002' x='499' y='978'>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17385' id='13' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='61' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='60' param='vert' w='99002' x='499' y='978'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17383' id='13' w='99002' x='499' y='978'>
                   <formatted-text>
                     <run bold='true' fontcolor='#24292e' fontsize='12' underline='true'>Exploratory Data Analysis</run>
                     <run>Æ&#10;</run>
@@ -1164,7 +1183,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='65061' id='10' is-fixed='true' name='Occurrences by Region' w='49501' x='499' y='18363'>
+                <zone fixed-size='280' h='65061' id='10' is-fixed='true' name='Occurrences by Region' w='49501' x='499' y='18361'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1173,7 +1192,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5193' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93829'>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5194' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93828'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1182,7 +1201,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='42018' id='15' is-fixed='true' name='Average Value Stolen' w='28774' x='50000' y='18363'>
+                <zone fixed-size='280' h='42019' id='15' is-fixed='true' name='Average Value Stolen' w='28772' x='50000' y='18361'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1191,7 +1210,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42018' id='26' w='20727' x='78774' y='18363'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42019' id='26' w='20729' x='78772' y='18361'>
                   <formatted-text>
                     <run>This plot shows us the average value of goods stolen in each of the regions. We see that overall, the South has the heighest average while the West has the second highest average while having the far fewest reported incidents. This suggests that possibly the West had a few high value incidents that are bringing the average up or maybe the value of goods stolen is just higher on average in the widespread West region.
 
@@ -1205,7 +1224,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='260' h='33448' id='17' is-fixed='true' name='Most Commonly Stolen Goods' w='28774' x='50000' y='60381'>
+                <zone fixed-size='260' h='33448' id='17' is-fixed='true' name='Most Commonly Stolen Goods' w='28772' x='50000' y='60380'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1214,7 +1233,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20727' x='78774' y='60381'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20729' x='78772' y='60380'>
                   <formatted-text>
                     <run>We can explore the most commonly stollen item categories. Before applying a filter, there is a category &quot;Other&quot; that is the second most commonly stolen. We choose to filter this out as we do not have any information on what is included in this category. This plot shows us that most of the reported theft revolves around vehicular theft.</run>
                   </formatted-text>
@@ -1226,7 +1245,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10405' id='24' w='49501' x='499' y='83424'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10406' id='24' w='49501' x='499' y='83422'>
                   <formatted-text>
                     <run>The graph above gives us an idea of how many occurances occur in each region. From this plot we see that the South region has the most reported cases overall, while the West has the least. In fact the South region has more incidents than the other three regions combined. </run>
                   </formatted-text>
@@ -1389,8 +1408,8 @@ One question the group wanted to explore was: Which of the regions was the worst
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='60' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='59' param='vert' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='62' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='61' param='vert' w='99002' x='499' y='978'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='11255' id='9' w='26792' x='499' y='978'>
                   <formatted-text>
                     <run bold='true' fontcolor='#1b1b1b' fontsize='12' underline='true'>Research Question</run>
@@ -1524,7 +1543,7 @@ One question the group wanted to explore was: Which of the regions was the worst
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.5' source-height='44'>
-    <window class='dashboard' maximized='true' name='EDA Dashboard'>
+    <window class='dashboard' name='EDA Dashboard'>
       <viewpoints>
         <viewpoint name='Average Value Stolen'>
           <zoom type='entire-view' />
@@ -1704,7 +1723,7 @@ One question the group wanted to explore was: Which of the regions was the worst
       </viewpoint>
       <simple-id uuid='{5BE19102-2206-4F50-AFBD-C6AB315154E6}' />
     </window>
-    <window class='worksheet' name='Occurrences by State'>
+    <window class='worksheet' maximized='true' name='Occurrences by State'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2687,127 +2706,127 @@ One question the group wanted to explore was: Which of the regions was the worst
     </thumbnail>
     <thumbnail height='192' name='Occurrences by State' width='192'>
       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
-      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
-      YII=
+      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
     </thumbnail>
     <thumbnail height='192' name='Recovered vs Not Recovered by Region' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
