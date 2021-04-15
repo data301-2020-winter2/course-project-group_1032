@@ -38,16 +38,21 @@ def load_and_process(path_to_csv):
     df["Latitude"] = np.nan
     df["Longitude"] = np.nan
     
+    # The code below adds lat/long coords by each state for Tableau to pick up and map
     geolocator = Nominatim(user_agent="chatbot")
     coordDict = {}
     for index, row in df.iterrows():
-        if row["State"] in coordDict:
-            df.at[index, "Latitude"] = coordDict[row["State"]][0]
-            df.at[index, "Longitude"] = coordDict[row["State"]][1]
+        locationString = "United States, " + str(row["State"]) + ", " + str(row["County"]).split(";", 1)[0]
+        if locationString in coordDict:
+            df.at[index, "Latitude"] = coordDict[locationString][0]
+            df.at[index, "Longitude"] = coordDict[locationString][1]
         else:
-            location = geolocator.geocode(row["State"])
-            df.at[index, "Latitude"] = location.latitude
-            df.at[index, "Longitude"] = location.longitude
-            coordDict[row["State"]] = (location.latitude, location.longitude)
+            location = geolocator.geocode(locationString)
+            if location is None:
+                pass
+            else:
+                df.at[index, "Latitude"] = location.latitude
+                df.at[index, "Longitude"] = location.longitude
+                coordDict[locationString] = (location.latitude, location.longitude)
 
     return df
