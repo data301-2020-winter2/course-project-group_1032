@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20204.21.0315.1000                               -->
-<workbook source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xml:base='https://us-west-2b.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <_.fcp.MarkAnimation.true...MarkAnimation />
@@ -13,6 +13,7 @@
     <SortTagCleanup />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
+  <repository-location id='Lab7Group1032Clarke' path='/t/data301/workbooks' revision='1.0' site='data301' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -22,7 +23,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='processed_data' name='textscan.08ikq830354hjh1h0lsae0i84fga'>
-            <connection class='textscan' directory='C:/Users/Clarke/Documents/School Docs/Third Year Homework/DATA 301/course-project-group_1032/data/processed' filename='processed_data.csv' password='' port='0' server='' />
+            <connection class='textscan' directory='C:/Users/Clarke/Documents/School Docs/Third Year Homework/DATA 301/course-project-group_1032/data/processed' filename='processed_data.csv' password='' port='0' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08ikq830354hjh1h0lsae0i84fga' name='processed_data.csv' table='[processed_data#csv]' type='table'>
@@ -475,15 +476,12 @@
               <bucket>&quot;West&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[Region (group)]' type='palette'>
+          <encoding attr='color' field='[none:Region:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;South&quot;</bucket>
             </map>
             <map to='#76b7b2'>
               <bucket>&quot;West&quot;</bucket>
-            </map>
-            <map to='#a2a2a2'>
-              <bucket>%null%</bucket>
             </map>
             <map to='#e15759'>
               <bucket>&quot;Midwest&quot;</bucket>
@@ -509,12 +507,15 @@
               <bucket>&quot;Northeast&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Region:nk]' type='palette'>
+          <encoding attr='color' field='[Region (group)]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;South&quot;</bucket>
             </map>
             <map to='#76b7b2'>
               <bucket>&quot;West&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
             </map>
             <map to='#e15759'>
               <bucket>&quot;Midwest&quot;</bucket>
@@ -1066,9 +1067,9 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
-          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='92851' id='7' param='horz' w='99002' x='499' y='978'>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92851' id='5' w='99002' x='499' y='978'>
-              <zone h='65061' id='10' name='Occurrences by Region' w='49501' x='499' y='18363'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='92850' id='7' param='horz' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92850' id='5' w='99002' x='499' y='978'>
+              <zone h='65061' id='10' name='Occurrences by Region' w='49501' x='499' y='18361'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1076,7 +1077,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17385' id='13' w='99002' x='499' y='978'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17383' id='13' w='99002' x='499' y='978'>
                 <formatted-text>
                   <run bold='true' fontcolor='#24292e' fontsize='12' underline='true'>Exploratory Data Analysis</run>
                   <run>Æ&#10;</run>
@@ -1090,7 +1091,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='42018' id='15' name='Average Value Stolen' w='28774' x='50000' y='18363'>
+              <zone h='42019' id='15' name='Average Value Stolen' w='28772' x='50000' y='18361'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1098,7 +1099,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='33448' id='17' name='Most Commonly Stolen Goods' w='28774' x='50000' y='60381'>
+              <zone h='33448' id='17' name='Most Commonly Stolen Goods' w='28772' x='50000' y='60380'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1106,7 +1107,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20727' x='78774' y='60381'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='33448' id='18' w='20729' x='78772' y='60380'>
                 <formatted-text>
                   <run>We can explore the most commonly stollen item categories. Before applying a filter, there is a category &quot;Other&quot; that is the second most commonly stolen. We choose to filter this out as we do not have any information on what is included in this category. This plot shows us that most of the reported theft revolves around vehicular theft.</run>
                 </formatted-text>
@@ -1117,7 +1118,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10405' id='24' w='49501' x='499' y='83424'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='10406' id='24' w='49501' x='499' y='83422'>
                 <formatted-text>
                   <run>The graph above gives us an idea of how many occurances occur in each region. From this plot we see that the South region has the most reported cases overall, while the West has the least. In fact the South region has more incidents than the other three regions combined. </run>
                 </formatted-text>
@@ -1128,7 +1129,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42018' id='26' w='20727' x='78774' y='18363'>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='42019' id='26' w='20729' x='78772' y='18361'>
                 <formatted-text>
                   <run>This plot shows us the average value of goods stolen in each of the regions. We see that overall, the South has the heighest average while the West has the second highest average while having the far fewest reported incidents. This suggests that possibly the West had a few high value incidents that are bringing the average up or maybe the value of goods stolen is just higher on average in the widespread West region.
 
@@ -1143,8 +1144,8 @@
               </zone>
             </zone>
           </zone>
-          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='5193' id='29' w='99002' x='499' y='93829'>
-            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5193' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93829'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='5194' id='29' w='99002' x='499' y='93828'>
+            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5194' id='11' name='Occurrences by Region' pane-specification-id='0' param='[federated.0rq24iv0t3hzgr121xx9t1jt8jxw].[Region (group)]' w='99002' x='499' y='93828'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -1165,8 +1166,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='57' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='56' param='vert' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='59' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='58' param='vert' w='99002' x='499' y='978'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='17385' id='13' w='99002' x='499' y='978'>
                   <formatted-text>
                     <run bold='true' fontcolor='#24292e' fontsize='12' underline='true'>Exploratory Data Analysis</run>
@@ -1407,8 +1408,8 @@ One question the group wanted to explore was: Which of the regions was the worst
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='58' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='57' param='vert' w='99002' x='499' y='978'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='60' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98044' id='59' param='vert' w='99002' x='499' y='978'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='11255' id='9' w='26792' x='499' y='978'>
                   <formatted-text>
                     <run bold='true' fontcolor='#1b1b1b' fontsize='12' underline='true'>Research Question</run>
