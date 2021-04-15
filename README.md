@@ -2,6 +2,14 @@
 # Group 1032 - Analysis of FBI Theft Data
 
 
+
+## Final Presentation Link
+
+https://drive.google.com/file/d/1k5OzCatXmlRoIsU1SUZowaSOCIIUkhnJ/view?usp=sharing
+
+Tableau dashboard can be found in analysis>submitted for reference
+
+
 ## Milestones
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
